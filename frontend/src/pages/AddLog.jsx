@@ -1,4 +1,4 @@
-import LogForm from '../components/logform'
+import LogForm from '../components/LogForm'
 
 function AddLog() {
   const username = localStorage.getItem('username')
@@ -13,7 +13,7 @@ function AddLog() {
           <strong>Driver:</strong> {username}
         </div>
       </div>
-      
+
       <LogForm />
     </div>
   )
